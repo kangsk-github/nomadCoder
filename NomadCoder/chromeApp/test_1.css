@@ -1,0 +1,32 @@
+body{
+    background-color : peru;
+}
+
+h1 {
+    color : white;
+}
+
+div{
+    border: 20px solid green;
+    font-size: 30px;
+}
+
+ol{
+    border-right : 1px black;
+}
+
+#grid ol {
+    border-right : 1px solid gray;
+    width : 100px;
+    margin : 0;
+    padding : 20px;
+}
+
+#grid{
+    display : grid;
+    grid-template-columns: 100px 1fr;
+}
+
+#article{
+    padding-left: 25px;
+}
